@@ -55,6 +55,21 @@ tChannel和SocketChannel就是其子类)、用于文件操作的FileChannel。�
 s
 
 1  
+
+```mermaid
+graph TD;
+  Kafka-->KafkaSpout;
+  KafkaSpout-->Bolt11;
+  Bolt11-->Bolt21;
+  KafkaSpout-->Bolt12;
+  Bolt12-->Bolt21;
+  KafkaSpout-->Bolt13;
+  Bolt13-->Bolt22;
+  Sport2-->Bolt13;
+```
+
+******
+
 2  
 2  
 3  
