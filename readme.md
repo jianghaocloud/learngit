@@ -56,7 +56,7 @@ s
 
 1  
 
-```mermaid
+```
 graph TD;
   Kafka-->KafkaSpout;
   KafkaSpout-->Bolt11;
